@@ -26,11 +26,39 @@ h1 {
   font-weight: 400;
   padding: 0 18px;
 }
+
 /* --------Button---------- */
 .fa-brands {
 padding-right: 5px;
 }
+.download-button {
+  margin: 5% 3% 0 0;
+}
+.title-image {
+  width: 60%;
+  transform: rotate(25deg);
+}
+/* ------Features------ */
+#features {
+  text-align: center;
 
+}
+#features h3{
+  font-weight: 700;
+}
+#features i {
+  color: #ef8172;
+  height: 100px;
+  width: 100px;
+}
+#features i:hover {
+  color: red;
+}
+
+#features p {
+  color: #8f8f8f;
+  padding: 7% 15%;
+}
 
 
 
