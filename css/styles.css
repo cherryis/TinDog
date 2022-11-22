@@ -1,18 +1,22 @@
 body {
   font-family: "Montserrat", sans-serif;
+  text-align: center;
+}
+p {
+  color: #8f8f8f;
+}
+h1, h2, h3 {
+  font-weight: 900;
+}
+h1 {
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+h2 {
+  font-size: 3rem;
 }
 .container-fluid {
-  padding: 3% 15% 7%;
-}
-#title {
-  background-color: #ff4c68;
-  color: azure;
-}
-h1,
-h2 {
-  font-weight: 900;
-  font-size: 3rem;
-  line-height: 1.5;
+  padding: 7% 15%;
 }
 .navbar {
   margin-bottom: 4.5rem;
@@ -20,12 +24,27 @@ h2 {
 .navbar-brand {
   font-family: "Ubuntu", sans-serif;
   font-size: 2.5rem;
-  font-weight: bold;
+  font-weight: 900;
 }
 .nav-item {
   font-size: 1.2rem;
   font-weight: 400;
   padding: 0 18px;
+}
+/* --------Title Section---------- */
+
+#title {
+  text-align: left;
+}
+#title .container-fluid {
+  padding: 3% 15% 7%;
+}
+.colored-section {
+  background-color: #ff4c68;
+  color: azure;
+}
+.white-section {
+  background-color: white;
 }
 
 /* --------Button---------- */
@@ -44,13 +63,9 @@ h2 {
 }
 /* ------Features------ */
 #features {
-  text-align: center;
-  background-color: white;
   position: relative;
 }
-#features h3 {
-  font-weight: 700;
-}
+
 #features i {
   color: #ef8172;
   height: 100px;
@@ -60,68 +75,46 @@ h2 {
   color: red;
 }
 
-#features p {
-  color: #8f8f8f;
-  padding: 7% 15%;
-}
-
 /* ------testimonials------ */
 #testimonials {
   background-color: #ef8172;
-  text-align: center;
   color: azure;
 }
 
 #testimonials img {
   border-radius: 50%;
   width: 15%;
-  margin: 2%;
+  margin-top: 2%;
 }
-.carousel-item {
-  padding: 7% 15%;
-}
+
 /* ------press------ */
 #press {
   background-color: #ef8172;
-  text-align: center;
-  padding-bottom: 3%;
 }
 #press img {
   margin: 2% 5% 3% 0;
-  width: 15%;
+  width: 12%;
+  padding-bottom: 3%;
 }
 /*------Pricing --------*/
 #pricing {
   padding: 100px;
-  text-align: center;
 }
 .pricing-column {
   padding: 3% 2%;
 }
 /* ---- CTA section ---- */
-#cta {
-  text-align: center;
-  background-color: #ff4c68;
-  color: azure;
-  padding: 7% 15%;
 
-}
 #cta h3 {
   font-weight: 900;
   font-size: 3.5rem;
 }
 /* ------ footer ------ */
-#footer {
-  background-color: white;
-  text-align: center;
-  margin: 100px 0;
-}
+
 #footer i {
-  margin: 5px 5px 20px 0;
+  margin: 0 10px 20px 0;
 }
-#footer p {
-  color: #8f8f8f;
-}
+
 @media (max-width: 1028px) {
   #title {
     text-align: center;
